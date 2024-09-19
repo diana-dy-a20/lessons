@@ -1,0 +1,122 @@
+/* Тут я практикувала підключення шрифту з Google Fonts */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');*/
+
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap"); 
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+
+/* Тут теж один із стилів практикувала під'єднати завантаживши */
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+h1 {
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 5px #999;
+	white-space: nowrap;
+	letter-spacing: 1.6px;
+}
+h2 {
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+	text-align: center;
+	line-height: 1.4;
+}
+.text1 {
+	color: #444;
+	text-align: right;
+	line-height: 1.2;
+	word-spacing: 5px;
+}
+.text2 {
+	color: #222;
+	text-align: center;
+	line-height: 1.2;
+	word-spacing: 5px;
+}
+.line {
+	text-decoration: line-through;
+	text-decoration-color: #ff0000;
+}
+.text3 {
+	color: #222222;
+	text-align: left;
+	line-height: 1.2;
+	word-spacing: 5px;
+}
+.text-decor {
+	font-size: 18px;
+	font-weight: 600;
+}
+.line2 {
+	text-decoration: underline;
+	text-decoration-style: double;
+	text-decoration-color: #ff0000;
+}
+.text4 {
+	color: #0b380e;
+	text-align: left;
+	line-height: 1.2;
+	word-spacing: 5px;
+}
+h3 {
+	font-size: 17px;
+	font-weight: 600;
+}
+a {
+	text-decoration: underline;
+}
+.personal-portfolio {
+	font-family: 'Work Sans', sans-serif;
+	color: #556070;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.3333; /* 24/18 */
+}
+.personal-portfolio1 {
+	color: #132238;
+	font-size: 38px;
+	font-weight: 600;
+	line-height: 1.3158; /* 50/38 */
+	text-align: left;
+}
+.landing-page {
+	font-family: 'Roboto', sans-serif;
+	color: #505F98;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.6667; /* 30/18 */
+}
+.landing-page1 {
+	color: #091133;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1.32; /* 66/50 */
+	letter-spacing: 1px;
+	text-align: left;
+}
+.buisness-page {
+	font-family: 'DM Sans', sans-serif;
+	color: #474464;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.75; /* 42/24 */
+}
+.buisness-page1 {
+	color: #1E1B39;
+	font-size: 88px;
+	font-weight: 700;
+	line-height: 1.0795; /* 95/88 */
+	text-align: left;
+}
