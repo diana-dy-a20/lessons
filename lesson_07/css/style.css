@@ -48,8 +48,7 @@ body {
 .portfolio-container {
 	max-width: 1230px;
 	margin: 0 auto;
-	padding-inline: 30px;
-	padding-block: 60px;
+	padding: 60px 30px;
 }
 .portfolio-container img {
 	max-width: 970px;
@@ -217,9 +216,6 @@ body {
 	margin-bottom: 26px;
 	
 }
-.busines-block1 span {
-	padding-left: 14px;
-}
 .busines-block1 ul li:last-child {
 	margin-bottom: 0;
 }
@@ -229,6 +225,7 @@ body {
 	height: 36px;
 	vertical-align: middle;
 	background: url("../img/check-circle.png") 0 0 / 36px no-repeat;
+	margin-right: 14px;
 }
 .items > *:not(:last-child) {
 	margin-right: 39px;
@@ -260,13 +257,8 @@ body {
 	background-color: #F9E5DA;
 	margin-left: 40px;
 }
-.level-1:hover + .level-2, .level-2:hover + .level-3, .level-3:hover + .level-4, 
-.level-4:hover + .level-5, .level-5:hover + .level-6, .level-6:hover + .level-7, 
-.level-7:hover + .level-8, .level-8:hover + .level-9, .level-9:hover + .level-10, 
-.level-10:hover + img {
-	visibility: visible;
-}
-.level-2:hover, .level-3:hover, .level-4:hover, .level-5:hover, .level-6:hover, .level-7:hover, .level-8:hover, .level-9:hover, .level-10:hover, img:hover {
+
+.homework-game > *:hover + *, .homework-game > *:hover {
 	visibility: visible;
 }
 
