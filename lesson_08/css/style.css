@@ -1,0 +1,49 @@
+
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Gilroy";
+	background-color: #FDF0E9;
+	color: #fff;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.wrapper>*:not(:last-child) {
+	margin-bottom: 50px;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding-inline: 15px;
+	color: black;
+	font-weight: 500;
+}
+.header, .footer {
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	color: #EF6C57;
+}
+p {
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+img {
+	vertical-align: middle;
+}
+.container > *:not(:last-child) {
+	margin-bottom: 20px;
+}
+.container > *:last-child p {
+	display: block;
+}
+.container > *:last-child img {
+	margin-bottom: 20px;
+}
