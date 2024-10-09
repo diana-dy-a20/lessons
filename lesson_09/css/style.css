@@ -1,0 +1,16 @@
+
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Gilroy";
+	background-color: #333;
+	color: #fff;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
