@@ -174,7 +174,7 @@ body {
 	position: relative;
 	inset-block-start: 36px;
 }
-.desing {
+.design {
 	max-width: 450px;
 	position: relative;
 }
@@ -199,12 +199,6 @@ body {
 	line-height: 1.2;
 	text-transform: uppercase;
 }
-.desing:hover .design__image {
+.design:hover .link-sofa__image {
 	opacity: 0.5;
 }
-/* .desing:hover .design__header h2 {
-	background-color: #1a92c2d8;
-}
-.desing:hover .design__header h3 {
-	color: #1a92c2;
-} */
