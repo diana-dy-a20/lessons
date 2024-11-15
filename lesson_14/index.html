@@ -15,35 +15,63 @@
 		</header>
 		<main class="page">
 			<div class="page__container">
-				<form enctype="multipart/form-data" action="#" class="form-black">
+				<form enctype="multipart/form-data" action="#" class="form-black form-black--margin">
 					<div class="form-black__line">
 						<label class="form-black__label" for="input-01">First Name</label>
-						<input id="input-01" name="form[]" type="text" placeholder="Enter First Name" class="form-black__input">
+						<input required id="input-01" name="form[]" type="text" placeholder="Enter First Name" class="form-black__input">
 					</div>
 					<div class="form-black__line">
 						<label class="form-black__label" for="input-02">Last Name</label>
-						<input id="input-02" name="form[]" type="text" placeholder="Enter Last Name"  class="form-black__input">
+						<input required id="input-02" name="form[]" type="text" placeholder="Enter Last Name"  class="form-black__input">
 					</div>
 					<div class="form-black__line">
 						<label class="form-black__label" for="input-03">Email</label>
-						<input id="input-03" name="form[]" type="email" placeholder="Enter your Email"  class="form-black__input" >
+						<input required id="input-03" name="form[]" type="email" placeholder="Enter your Email"  class="form-black__input" >
 					</div>
 					<div class="form-black__line">
 						<label class="form-black__label" for="input-04">Phone Number</label>
-						<input id="input-04" name="form[]" type="tel" placeholder="Enter Phone Number" class="form-black__input" >
+						<input required id="input-04" name="form[]" type="tel" placeholder="Enter Phone Number" class="form-black__input" >
 					</div>
 					<div class="form-black__line-text">
 						<label class="form-black__label" for="textarea-01">Message</label>
 						<textarea id="textarea-01" name="form[]" placeholder="Enter your Message" class="form-black__textarea"></textarea>
 					</div>
 					<div class="form-black__line-check">
+						<input required value="checked" id="check" name="form[]" type="checkbox" class="form-black__input-check">
 						<label class="form-black__label-check" for="check">I agree with Terms of Use and Privacy Policy</label>
-						<input id="check" name="form[]" type="checkbox" class="form-black__input-check">
+						
 					</div>
 					<div class="form-black__line-button">
-						<button class="form-black__button">Send Message</button>
+						<button type="submit" class="form-black__button">Send Message</button>
 					</div>
 				</form>
+				<div class="personal-portfolio">
+					<p>There are many variations of passages of Lorem Ipsu available,
+					but the majority have suffered alte.</p>
+					<form enctype="multipart/form-data" action="#" class="form-white">
+						<div class="form-white__line">
+							<input required name="form[]" type="text" placeholder="Name*" class="form-white__input">
+						</div>
+						<div class="form-white__line">
+							<input required name="form[]" type="email" placeholder="Email*" class="form-white__input">
+						</div>
+						<div class="form-white__line">
+							<input name="form[]" type="text" placeholder="Location" class="form-white__input">
+						</div>
+						<div class="form-white__line">
+							<input required name="form[]" type="number" placeholder="Budget*" class="form-white__input">
+						</div>
+						<div class="form-white__line">
+							<input required name="form[]" type="text" placeholder="Subject*" class="form-white__input">
+						</div>
+						<div class="form-white__line">
+							<textarea required name="form[]" placeholder="Message*" class="form-white__textarea"></textarea>
+						</div>
+						<div class="form-white__line">
+							<button type="submit" class="form-white__button">Submit</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</main>
 		<footer class="footer">
