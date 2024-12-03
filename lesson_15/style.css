@@ -163,7 +163,6 @@ body {
 .cta__image-block {
 	position: relative;
 	flex-basis: 338px;
-	aspect-ratio: 338 / 192;
 	padding-bottom: 16px;
 }
 .cta__image-block img {
