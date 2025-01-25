@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_21</title>
+	<!-- <base href="#" target="_blank"> -->
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"><img src="img/logo.svg"
+						alt="Stream vibe logo featuring a prominent red and white star, symbolizing energy and creativity in digital content."></a>
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="#" class="menu__link menu__link--active">Movies & Shows</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Support</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Subscriptions</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="header__actions actions-header">
+					<button class="actions-header__item" type="button" aria-label="Search">
+						<img src="img/icon/header-search.svg" alt="Icon search">
+					</button>
+					<button class="actions-header__item" type="button" aria-label="Notification">
+						<img src="img/icon/header-notify.svg" alt="Icon notification">
+					</button>
+					<button class="actions-header__icon icon-menu" type="button" aria-label="Open menu">
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__block">
+						<div class="hero__poster">
+							<img src="img/avengers.webp"
+								alt="Avengers Endgame movie poster featuring iconic characters in a dramatic, action-packed design.">
+						</div>
+						<div class="hero__content">
+							<h1 class="hero__tittle">Avengers : Endgame</h1>
+							<p class="hero__text">With the help of remaining allies, the Avengers must assemble once more in
+								order to undo Thanos's actions and undo the
+								chaos to the universe, no matter what consequences may be in store, and no matter who they
+								face... Avenge the fallen.</p>
+							<div class="hero__buttons">
+								<a class="hero__button button" href="#">Play Now</a>
+								<div class="hero__butons-icon">
+									<button class="hero__button-icon button-icon" type="button" aria-label="Add to watchlist">
+										<img src="img/plus.svg" alt="Icon plus">
+									</button>
+									<button class="hero__button-icon button-icon" type="button" aria-label="Add to favorites">
+										<img src="img/like.svg" alt="Icon like">
+									</button>
+									<button class="hero__button-icon button-icon" type="button" aria-label="Control the volume">
+										<img src="img/loudness.svg" alt="Icon dynamic">
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="hero__sliders">
+							<button class="hero__slider hero__slider--prew button-icon">
+								<img src="img/arrow.svg" alt="Icon arrow">
+							</button>
+							<div class="hero__pages pages">
+								<div class="pages__page pages__page--active"></div>
+								<div class="pages__page"></div>
+								<div class="pages__page"></div>
+								<div class="pages__page"></div>
+							</div>
+							<button class="hero__slider hero__slider--next button-icon">
+								<img src="img/arrow.svg" alt="Icon arrow">
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="switch">
+				<div class="switch__container">
+					<div class="switch__buttons">
+						<a href="#">Movies</a>
+						<a href="#">Shows</a>
+					</div>
+				</div>
+			</div>
+			<div class="movies">
+				<div class="movies__container">
+					<a href="#" class="movies__tittle button">
+						<h2>Movies</h2>
+					</a>
+					<div class="movies__body">
+						<section class="movies__cards genres">
+							<div class="genres__headline headline">
+								<h3 class="headline__tittle">Our Genres</h3>
+								<div class="headline__sliders sliders">
+									<button class="sliders__slider sliders__slider--prew button-icon">
+										<img src="img/arrow.svg" alt="Icon arrow">
+									</button>
+									<div class="sliders__pages pages">
+										<div class="pages__page pages__page--active"></div>
+										<div class="pages__page"></div>
+										<div class="pages__page"></div>
+										<div class="pages__page"></div>
+									</div>
+									<button class="sliders__slider sliders__slider--next button-icon">
+										<img src="img/arrow.svg" alt="Icon arrow">
+									</button>
+								</div>
+							</div>
+							<ul class="genres__items">
+								<li>
+									<a href="#" class="genres__card">
+										<div class="genres__images">
+											<img src="img/genres/action-punch.webp"
+												alt="A vibrant sign reading Welcome to the Punch in bold letters, inviting guests to a lively event or gathering.">
+											<img src="img/genres/action-panther.webp"
+												alt="A sleek black panther prowls through a lush green jungle, showcasing its powerful physique and striking fur.">
+											<img src="img/genres/action-batman.webp"
+												alt="Batman and Superman face off in a dramatic movie poster, showcasing their iconic costumes and intense expressions.">
+											<img src="img/genres/action-expendables.webp"
+												alt="A dynamic scene from The Expendables 2, showcasing the team preparing for battle with intense expressions and weapons ready.">
+										</div>
+										<div class="genres__genre">
+											<h4 class="genres__subtittle">Action</h4>
+											<img src="img/arrow.svg" alt="Icon arrow">
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="genres__card">
+										<div class="genres__images">
+											<img src="img/genres/archer.webp"
+												alt="A movie poster featuring a woman confidently holding a bow, embodying the spirit of an archer.">
+											<img src="img/genres/jungle.webp"
+												alt=" Jungle Cruise movie poster featuring lush greenery, a boat, and adventurous characters ready for exploration.">
+											<img src="img/genres/jack.webp"
+												alt="A colorful poster featuring Jack standing confidently beside a giant frog in a whimsical, enchanted landscape.">
+											<img src="img/genres/golden.webp"
+												alt="A captivating movie poster for The Golden Compass, featuring a mystical compass and enchanting landscapes.">
+										</div>
+										<div class="genres__genre">
+											<h4 class="genres__subtittle">Adventure</h4>
+											<img src="img/arrow.svg" alt="Icon arrow">
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="genres__card">
+										<div class="genres__images">
+											<img src="img/genres/good.webp"
+												alt=" Image depicting the poster of the Hindi movie Good News from 2020, highlighting its comedic and romantic themes.">
+											<img src="img/genres/central.webp"
+												alt="A visual representation of central intelligence, symbolizing data analysis and strategic decision-making processes.">
+											<img src="img/genres/bhool.webp"
+												alt="Movie poster for Bhool Bhulaiyaa 2, featuring vibrant colors and intriguing imagery that captures the film's essence.">
+											<img src="img/genres/udanchhoo.webp"
+												alt="Movie poster for Udang Hoo, featuring vibrant colors and dynamic imagery that captures the film's essence.">
+										</div>
+										<div class="genres__genre">
+											<h4 class="genres__subtittle">Comedy</h4>
+											<img src="img/arrow.svg" alt="Icon arrow">
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="genres__card">
+										<div class="genres__images">
+											<img src="img/genres/family.webp"
+												alt="A dramatic movie poster featuring a family in conflict, showcasing intense emotions and a gripping storyline.">
+											<img src="img/genres/joker.webp"
+												alt="Joker movie poster featuring a close-up of the Joker's face, showcasing his iconic makeup and intense expression.">
+											<img src="img/genres/pain.webp"
+												alt="Film poster for Painkillers, featuring dramatic imagery and bold typography that captures the essence of the movie.">
+											<img src="img/genres/bholaa.webp"
+												alt="Image depicting the download option for the Hindi movie Bhoola released in 2020.">
+										</div>
+										<div class="genres__genre">
+											<h4 class="genres__subtittle">Drama</h4>
+											<img src="img/arrow.svg" alt="Icon arrow">
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="genres__card">
+										<div class="genres__images">
+											<img src="img/genres/us.webp"
+												alt="A large US trailer parked on a scenic road, showcasing its sleek design and vibrant colors against a clear blue sky.">
+											<img src="img/genres/skream.webp"
+												alt="Poster for Scream, featuring a ghostly figure and iconic mask, evoking suspense and horror in a chilling design.">
+											<img src="img/genres/flesh.webp"
+												alt="A chilling movie poster for The Flesh Eater, featuring eerie imagery and a haunting atmosphere.">
+											<img src="img/genres/human.webp"
+												alt="A surreal depiction of interconnected individuals, illustrating a bizarre and unsettling concept of human connection.">
+										</div>
+										<div class="genres__genre">
+											<h4 class="genres__subtittle">Horror</h4>
+											<img src="img/arrow.svg" alt="Icon arrow">
+										</div>
+									</a>
+								</li>
+							</ul>
+							<div class="genres__scroll scroll">
+								<div></div>
+							</div>
+						</section>
+						<section class="movies__cards popular">
+							<div class="popular__headline headline">
+								<h3 class="headline__tittle">Popular Top 10 In Genres</h3>
+								<div class="headline__sliders sliders">
+									<button class="sliders__slider sliders__slider--prew button-icon">
+										<img src="img/arrow.svg" alt="Icon arrow">
+									</button>
+									<div class="sliders__pages pages">
+										<div class="pages__page pages__page--active"></div>
+										<div class="pages__page"></div>
+										<div class="pages__page"></div>
+										<div class="pages__page"></div>
+									</div>
+									<button class="sliders__slider sliders__slider--next button-icon">
+										<img src="img/arrow.svg" alt="Icon arrow">
+									</button>
+								</div>
+							</div>
+							<ul class="popular__items">
+								<li>
+									<a href="#" class="popular__card">
+										<div class="popular__images">
+											<img src="img/popular/freedom.webp"
+												alt="Poster for Freedom, featuring Brad Cole, showcasing a dramatic design with bold colors and striking imagery.">
+											<img src="img/popular/baieti.webp"
+												alt="Baati rai served on a traditional plate, showcasing its golden-brown color and rustic presentation.">
+											<img src="img/popular/fire.webp"
+												alt="A man holding a gun, standing confidently with a serious expression in a tense environment.">
+											<img src="img/popular/iron-man.webp"
+												alt="Iron Man 3 wallpaper featuring the iconic superhero in a dynamic pose against a dramatic background.">
+										</div>
+										<div class="popular__genre">
+											<div class="popular__subtittles">
+												<p class="popular__label">Top 10 In</p>
+												<h4 class="popular__subtittle">Action</h4>
+											</div>
+											<img src="img/arrow.svg" alt="Icon arrow">
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="popular__card">
+										<div class="popular__images">
+											<img src="img/popular/archer.webp"
+												alt="Cover of Archer by Jason Alexander, featuring a striking design that captures the essence of the book's themes.">
+											<img src="img/popular/jungle.webp"
+												alt=" Jungle Cruise movie poster featuring lush greenery, a boat, and adventurous characters ready for exploration.">
+											<img src="img/popular/immortal.webp"
+												alt="A man wielding a sword, representing the theme of immortality in the movie Immortal.">
+											<img src="img/popular/hunters.webp"
+												alt="Movie poster for Hansel & Gretel: Witch Hunters.">
+										</div>
+										<div class="popular__genre">
+											<div class="popular__subtittles">
+												<p class="popular__label">Top 10 In</p>
+												<h4 class="popular__subtittle">Adventure</h4>
+											</div>
+											<img src="img/arrow.svg" alt="Icon arrow">
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="popular__card">
+										<div class="popular__images">
+											<img src="img/popular/central.webp"
+												alt="Central intelligence symbolized by a network of interconnected nodes representing data and information flow.">
+											<img src="img/popular/regalant.webp"
+												alt="Regalant movie review featuring a cinematic scene with dramatic lighting and engaging characters in action.">
+											<img src="img/popular/jaanu.webp"
+												alt="1. A detailed review of the movie Jaanu, highlighting its themes, performances, and overall impact on the audience.">
+											<img src="img/popular/bride.webp"
+												alt="Bridesmaids poster featuring a group of women in elegant dresses, celebrating friendship and joy at a wedding.">
+										</div>
+										<div class="popular__genre">
+											<div class="popular__subtittles">
+												<p class="popular__label">Top 10 In</p>
+												<h4 class="popular__subtittle">Comedy</h4>
+											</div>
+											<img src="img/arrow.svg" alt="Icon arrow">
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="popular__card">
+										<div class="popular__images">
+											<img src="img/popular/dark.webp"
+												alt="A logo of the dark society featuring a man silhouetted against a city skyline at dusk.">
+											<img src="img/popular/way.webp"
+												alt="A visually striking poster for The Way I See It, featuring evocative imagery and bold typography that captures the film's essence.">
+											<img src="img/popular/hole.webp"
+												alt="A movie poster featuring a dramatic design, showcasing the title The Hole with captivating imagery and bold typography.">
+											<img src="img/popular/tenet.webp"
+												alt="Two movie posters for the film Tenet, showcasing distinct designs and themes related to the storyline.">
+										</div>
+										<div class="popular__genre">
+											<div class="popular__subtittles">
+												<p class="popular__label">Top 10 In</p>
+												<h4 class="popular__subtittle">Drama</h4>
+											</div>
+											<img src="img/arrow.svg" alt="Icon arrow">
+										</div>
+									</a>
+								</li>
+							</ul>
+							<div class="popular__scroll scroll">
+								<div></div>
+							</div>
+						</section>
+						<section class="movies__cards trend">
+							<div class="trend__headline headline">
+								<h3 class="headline__tittle">Trending Now</h3>
+								<div class="headline__sliders sliders">
+									<button class="sliders__slider sliders__slider--prew button-icon">
+										<img src="img/arrow.svg" alt="Icon arrow">
+									</button>
+									<div class="sliders__pages pages">
+										<div class="pages__page pages__page--active"></div>
+										<div class="pages__page"></div>
+										<div class="pages__page"></div>
+										<div class="pages__page"></div>
+									</div>
+									<button class="sliders__slider sliders__slider--next button-icon">
+										<img src="img/arrow.svg" alt="Icon arrow">
+									</button>
+								</div>
+							</div>
+							<ul class="trend__items">
+								<li>
+									<a href="#" class="trend__card">
+										<div class="trend__image">
+											<img src="img/trend/morbius.webp" alt="Morbius 2019 film poster featuring Hindi dual audio, 720p Blu-ray quality.">
+										</div>
+										<div class="trend__description">
+											<p class="trend__time">1h 30min</p>
+											<p class="trend__views">2K</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="trend__card">
+										<div class="trend__image">
+											<img src="img/trend/bhaajan.webp" alt="A captivating trailer for the film Bhaajan, showcasing dynamic scenes and engaging characters.">
+										</div>
+										<div class="trend__description">
+											<p class="trend__time">1h 57min</p>
+											<p class="trend__views">1.5K</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="trend__card">
+										<div class="trend__image">
+											<img src="img/trend/suraj.webp" alt="A vibrant movie poster for Sura Pe Mangal Bhar, featuring dynamic visuals and captivating design elements.">
+										</div>
+										<div class="trend__description">
+											<p class="trend__time">2h 10min</p>
+											<p class="trend__views">1.8K</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="trend__card">
+										<div class="trend__image">
+											<img src="img/trend/pathan.webp" alt="1. Movie poster for Patthhan, featuring dramatic visuals and captivating design elements that reflect its theme.">
+										</div>
+										<div class="trend__description">
+											<p class="trend__time">2h 20min</p>
+											<p class="trend__views">3K</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="trend__card">
+										<div class="trend__image">
+											<img src="img/trend/iron-man.webp" alt="Ant-Man and the Wasp stand together, showcasing their superhero suits and ready for action in a dynamic pose.">
+										</div>
+										<div class="trend__description">
+											<p class="trend__time">1h 42min</p>
+											<p class="trend__views">5K</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<div class="trend__scroll scroll">
+								<div></div>
+							</div>
+						</section>
+						<section class="movies__cards new">
+							<div class="new__headline headline">
+								<h3 class="headline__tittle">Trending Now</h3>
+								<div class="headline__sliders sliders">
+									<button class="sliders__slider sliders__slider--prew button-icon">
+										<img src="img/arrow.svg" alt="Icon arrow">
+									</button>
+									<div class="sliders__pages pages">
+										<div class="pages__page pages__page--active"></div>
+										<div class="pages__page"></div>
+										<div class="pages__page"></div>
+										<div class="pages__page"></div>
+									</div>
+									<button class="sliders__slider sliders__slider--next button-icon">
+										<img src="img/arrow.svg" alt="Icon arrow">
+									</button>
+								</div>
+							</div>
+							<ul class="new__items">
+								<li>
+									<a href="#" class="new__card">
+										<div class="new__image">
+											<img src="img/new/adipurush.webp" alt="Adipurush 2020 Hindi movie poster featuring vibrant artwork and key characters from the epic tale.">
+										</div>
+										<p class="new__released">Released at <time datetime="2023-04-14">14 April 2023</time></p>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="new__card">
+										<div class="new__image">
+											<img src="img/new/gun.webp" alt="A dramatic movie poster featuring a man holding a gun, set against a dark, intense background.">
+										</div>
+										<p class="new__released">Released at <time datetime="2023-04-22"> 22 April 2023</time></p>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="new__card">
+										<div class="new__image">
+											<img src="img/new/war.webp" alt="Movie poster for The Tomorrow War, featuring dramatic visuals and key characters in an action-packed sci-fi setting..">
+										</div>
+										<p class="new__released">Released at <time datetime="2023-04-13">13 April 2023</time></p>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="new__card">
+										<div class="new__image">
+											<img src="img/new/city.webp" alt="Sin City movie poster featuring a stylized, noir-inspired design with striking contrasts and iconic characters.">
+										</div>
+										<p class="new__released">Released at <time datetime="2023-04-19">19 April 2023</time></p>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="new__card">
+										<div class="new__image">
+											<img src="img/new/misfire.webp" alt="Misfire 2013 film poster featuring dual audio in Hindi, presented in 720p Blu-ray quality.">
+										</div>
+										<p class="new__released">Released at <time datetime="2023-04-11">11 April 2023</time></p>
+									</a>
+								</li>
+							</ul>
+							<div class="new__scroll scroll">
+								<div></div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
