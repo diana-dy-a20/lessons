@@ -1,0 +1,50 @@
+@use "sass:math";
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+
+@import "_mixins.scss";
+
+@import "_fonts.scss";
+
+@import "_reset.scss";
+
+@import "_variables.scss";
+
+body {
+	font-family: var(--ffMain1);
+	background-color: black;
+	color: var(--txColor2);
+
+	// opacity: 0;
+	// transition: opacity 1.5s;
+
+	// .loaded & {
+	// 	opacity: 1;
+	// }
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper > main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: toRem($maxWidthContainer);
+	padding-inline: toRem($containerPadding);
+	margin: 0 auto;
+}
+h1 {
+	font-size: toRem(48);
+}
+h2 {
+	font-size: toRem(40);
+}
+.active {
+	background-color: var(--bgColor4);
+}
